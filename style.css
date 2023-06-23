@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 0, 255);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(images/abstract-uv-ultraviolet-light-composition.jpg) center
+    no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.text-wrapper-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-wrapper-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 575px;
+  height: 45px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 350px;
+  width: 550px;
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 50px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-img {
+  display: flex;
+  justify-content: center;
+  margin-left: 255px;
+  margin-right: 255px;
+  width: auto;
+  height: 60px;
+}
+
+.icon-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-img-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 130px;
+  margin-right: 130px;
+  width: auto;
+  height: 100px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 20px;
+  height: 110px;
+  margin-top: 50px;
+  background-color: #bcd2ee;
+  border-radius: 30px;
+  padding-top: 7px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.btn-wrapper:hover {
+  background-color: white;
+}
+
+.btn-wrapper:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
