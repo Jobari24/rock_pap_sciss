@@ -18,9 +18,11 @@
       <h1>Rock! Paper! Scissors!</h1>
       <div class="text-wrapper-1">
         <h1>The First to get 5 points Wins!</h1>
+        <br />
         <h1>Round</h1>
-        <h2>0</h2>
-        <h2>Results</h2>
+        <h2 id="roundNumber">0</h2>
+        <br />
+        <h1 id="roundResults">Results</h1>
       </div>
       <div class="icon-wrapper">
         <img
@@ -45,19 +47,19 @@
       <div class="wrapper">
         <div class="box">
           <div class="text-wrapper-1">
-            <h2>Score: 0</h2>
-            <p>You Choose</p>
+            <h2 id="playersScore">Score: 0</h2>
+            <p id="playersResult"></p>
           </div>
         </div>
         <div class="box">
           <div class="text-wrapper-1">
-            <h2>Score: 0</h2>
-            <p>The Computer Choose</p>
+            <h2 id="computersScore">Score: 0</h2>
+            <p id="computersResults"></p>
           </div>
         </div>
       </div>
       <div class="icon-wrapper-2">
-        <button class="btn-wrapper">
+        <button class="btn-wrapper" id="rockBtn">
           <img
             class="icon-img-2"
             src="images/rock.png"
@@ -65,7 +67,7 @@
             title="fist icons"
           />
         </button>
-        <button class="btn-wrapper">
+        <button class="btn-wrapper" id="paperBtn">
           <img
             class="icon-img-2"
             src="images/paper.png"
@@ -73,7 +75,7 @@
             title="document icons"
           />
         </button>
-        <button class="btn-wrapper">
+        <button class="btn-wrapper" id="scissorsBtn">
           <img
             class="icon-img-2"
             src="images/scissor.png"
@@ -82,6 +84,7 @@
           />
         </button>
       </div>
+      <script src="script.js"></script>
     </main>
   </body>
 </html>

@@ -26,9 +26,17 @@
   gap: 5px;
 }
 
+#playersResult {
+  font-size: xx-large;
+}
+
 .text-wrapper-2 {
   display: flex;
   justify-content: center;
+}
+
+#computersResults {
+  font-size: xx-large;
 }
 
 .text-box {
@@ -51,7 +59,7 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  height: 251px;
+  height: 200px;
   width: 550px;
   border: 5px solid black;
   background-color: rgba(0, 0, 0, 0.479);
